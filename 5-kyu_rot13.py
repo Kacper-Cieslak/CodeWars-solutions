@@ -15,6 +15,7 @@ Please note that using encode is considered cheating.
 #Solution:
 
 def zeros(n):
+    
     assert n >= 0, n
     zeros = 0
     q = n
@@ -22,4 +23,5 @@ def zeros(n):
     while q:
         q //= 5
         zeros += q
+        
     return zeros
